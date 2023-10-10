@@ -1,0 +1,415 @@
+* {
+	box-sizing: border-box;
+}
+html, body {
+	min-height: 100%;
+	background: #fff;
+	color: #000;
+	font-family: 'Lato';
+}
+body {
+	font-size: 16px;
+	text-rendering: optimizeLegibility;
+}
+body, ul, ol, dl {
+	margin: 0;
+}
+article, aside, audio, footer, header, nav, section, video {
+	display: block;
+}
+h1 {
+	font-size: 1.4rem;
+}
+p {
+	-ms-word-break: break-all;
+	word-break: break-all;
+	word-break: break-word;
+	-moz-hyphens: auto;
+	-webkit-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+}
+textarea {
+	resize: vertical;
+}
+table {
+	border-collapse: collapse;
+}
+td {
+	padding: .5rem;
+}
+img {
+	border: none;
+	max-width: 100%;
+}
+input[type="submit"]::-moz-focus-inner, input[type="button"]::-moz-focus-inner {
+	border : 0px;
+}
+input[type="search"] {
+	-webkit-appearance: textfield;
+}
+input[type="submit"] {
+	-webkit-appearance:none;
+}
+input:required:after {
+	color: #f00;
+	content: " *";
+}
+input[type="email"]:invalid {
+	background: #f00;
+}
+.right {
+	float: right;
+	margin-left: 2rem;
+	clear: right;
+}
+.left {
+	float: left;
+	margin-right: 2rem;
+	clear: left;
+}
+sub, sup {
+	line-height: 0;
+}
+.text-primary {
+	color: #414f6b !important;
+}
+.text-secondary {
+	color: #63769d !important;
+}
+.card-body {
+	padding: 0;
+}
+.card-title {
+	margin-bottom: 0;
+}
+#hero {
+	background-image: url("../img/hero.jpg");
+	min-height: 100vh;
+	background-position: center;
+	background-size: cover;
+}
+.header-text {
+	font-family: 'Oswald';
+	color: #414f6b;
+}
+.header-subtext {
+	font-size: 32pt;
+}
+.climb-text-description {
+	left: 324px;
+	position: absolute;
+	top: 88px;
+}
+.climb-text-header {
+	left: 198px !important;
+}
+.header-text-position {
+	left: 176px;
+	bottom: 58px;
+	position: absolute;
+}
+#historyContent{
+	z-index: 1;
+	padding-top: 74px;
+	max-width: 960px;
+}
+#teamContent {
+	background-color: #FFF;
+}
+#teamContent {
+	padding-top: 74px;
+}
+.header-number {
+	font-size: 136pt;
+	color: #6c7c97;
+}
+.history-text-description {
+	padding: 0 62px;
+	top: -18px;
+}
+#history {
+	background-image: url("../img/history.jpg");
+	min-height: calc(100vh - 74px);
+}
+#team {
+	min-height: calc(100vh - 74px);
+	background-color: #FFF;
+}
+#teamTabs {
+	background-color: #414f6b;
+}
+#nav-mountain-1 {
+	background-image: url("../img/tab1.jpg");
+	min-height: 500px;
+}
+#nav-mountain-2 {
+	background-image: url("../img/tab2.jpg");
+	min-height: 500px;
+}
+#collapseMountain-1 {
+	background-image: url("../img/tab1.jpg");
+	min-height: 500px;
+}
+#collapseMountain-2{
+	background-image: url("../img/tab2.jpg");
+	min-height: 500px;
+}
+.nav-link.active {
+	background-color: #b0b4be !important;
+	border: none;
+	border-radius: 0;
+	color: #414f6b !important;
+}
+.nav-tabs .nav-link {
+	font-size: 20px;
+}
+.nav-link {
+	color: #b0b4be;
+}
+.navbar-nav .nav-link {
+	padding: 0 !important;
+	margin: 0 20px;
+	border-bottom: 1px solid #FFF;
+	font-weight: 600;
+	letter-spacing: 1.5px;
+	font-size: 14px;
+}
+#stickyNav .navbar-nav .nav-link{
+	border-bottom: 1px solid #414f6b;
+}
+.nav-tabs .nav-link:focus,.nav-tabs .nav-link:hover {
+	color: #e2e3e5;
+	border-color: transparent;
+	border-radius: 0;
+}
+#stickyNav {
+	position: sticky;
+	top: 0;
+	z-index: 10;
+	background: #FFF;
+	height: 74px;
+}
+.nav-tabs {
+	border-bottom: none;
+}
+.schedule-card {
+	width: 350px;
+	border-radius: 0;
+	background-color: rgb(255 255 255 / 50%);
+	left: 42px;
+	top: 100px;
+}
+footer {
+	background-color: #414f6b;
+}
+.copyright {
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 14px;
+}
+.schedule-card {
+	padding: 30px;
+}
+.table td {
+	background: none;
+}
+/* carousel */
+.carousel-item {
+	height: 100vh;
+	min-height: 300px;
+}
+.bg-1 {
+	background-image: url('../img/history.jpg');
+}
+.bg-2 {
+	background-image: url('../img/hero-image.jpg');
+}
+.bg-3 {
+	background-image: url('../img/history.jpg');
+}
+.bg-4 {
+	background-image: url('../img/hero-image.jpg');
+}
+.bg-1, .bg-2, .bg-3 {
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.carousel-caption {
+	bottom: 220px;
+	z-index: 2;
+}
+.carousel-caption h5 {
+	font-size: 85px;
+	text-transform: capitalize;
+	letter-spacing: 2px;
+	margin-top: 25px;
+	font-family: 'Moon Dance', cursive;
+}
+.carousel-caption p {
+	width: 60%;
+	margin: auto;
+	font-size: 18px;
+	line-height: 1.9;
+}
+.carousel-caption a {
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 5px 20px;
+	display: inline-block;
+	color: #fff;
+	margin-top: 15px;
+	border-radius: 5px;
+}
+.carousel-inner:before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 194px;
+	bottom: 0;
+	left: 0;
+	background: rgba(65, 79, 107, 0.8);
+	z-index: 1;
+}
+.carousel-indicators {
+	bottom: 65px;
+}
+.carousel-indicators [data-bs-target] {
+	text-indent: 0;
+	width: 22%;
+	opacity: .8;
+}
+.carousel-indicators .active {
+	opacity: 1 !important;
+}
+.circle-indicators.carousel-indicators [data-bs-target] {
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+}
+.circle-indicators.carousel-indicators{
+	bottom: -4px;
+	margin: 0;
+}
+.circle-indicators.carousel-indicators [data-bs-target] {
+	opacity: 0.3;
+}
+.accordion-button {
+	background-color: #414f6b;
+	color: #b0b4be;
+	font-family: 'Oswald';
+	font-size: 20px;
+}
+.accordion-button:not(.collapsed) {
+	background-color: #b0b4be ;
+	color: #414f6b;
+}
+.accordion-button:focus {
+	box-shadow: none !important;
+}
+.accordion-item:first-of-type .accordion-button, .accordion-item:last-of-type .accordion-button.collapsed {
+	border-radius: 0;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.navbar-nav {
+		text-align: center;
+   }
+	.navbar-collapse {
+		background: #fff;
+   }
+	.navbar-collapse .nav-item .nav-link {
+		color: #000;
+   }
+	.carousel-caption {
+		bottom: 350px;
+   }
+	.carousel-caption h5 {
+		font-size: 65px;
+   }
+	.carousel-caption p {
+		font-size: 18px;
+		width: 100%;
+   }
+}
+@media only screen and (max-width: 767px) {
+	.navbar-nav {
+		text-align: center;
+   }
+	.navbar-collapse .nav-item .nav-link {
+		color: #000;
+   }
+	.carousel-caption {
+		bottom: 165px;
+   }
+	.carousel-caption h5 {
+		font-size: 25px;
+   }
+	.carousel-caption p {
+		font-size: 12px;
+		width: 100%;
+   }
+	.carousel-caption a {
+		padding: 10px 15px;
+		font-size: 15px;
+   }
+	.navbar-collapse {
+		background: #fff;
+   }
+	#hero {
+		background-position-x: 40%;
+		background-size: cover;
+   }
+	.carousel-indicators {
+		margin: 0;
+   }
+	.carousel-indicators [data-bs-target] {
+		width: 22%;
+   }
+	.carousel-inner:before {
+		height: 94px;
+   }
+	.carousel-indicators {
+		bottom: 35px;
+   }
+	.history-text-description {
+		padding: 0;
+		top: -18px;
+   }
+	#teamContent {
+		height: 360px;
+   }
+	.climb-text-description {
+		left: 20px;
+		top: 144px;
+   }
+	.schedule-card {
+		margin: 0;
+		width: 100%;
+		left: 0;
+		top: 15px;
+   }
+	.navbar-nav .nav-link {
+		padding: 4px !important;
+   }
+	.header-number {
+		font-size: 96pt;
+   }
+	.header-subtext {
+		font-size: 22pt;
+   }
+	.header-text-position {
+		left: 122px;
+		bottom: 46px;
+   }
+	.climb-text-header {
+		left: 138px !important;
+   }
+	.navbar-nav .nav-link {
+		margin: 0;
+   }
+}
+@media (min-width: 1200px) {
+	.container{
+		max-width: 960px;
+   }
+}
