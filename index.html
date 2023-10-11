@@ -1,301 +1,398 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Coalition Technologies | Front End Test</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Ryan Jayson Berdelao | Website Developer</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Oswald:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <main>
-      <section id="hero">
-        <div class="container text-center">
-          <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">
-                <img src="./img/logo-top.png" />
-              </a>
-              <div class="d-flex">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 fst-italic text-uppercase fs-6 ">
-                  <li class="nav-item">
-                    <a class="nav-link text-light" aria-current="page" href="#history">01. History</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-light" href="#team">02. Team</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-        </div>
-      </section>
-      <section id="stickyNav">
-        <div class="container text-center">
-          <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">
-                <img src="./img/logo-sticky.png" />
-              </a>
-              <div class="d-flex">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 fst-italic text-uppercase fs-6 ">
-                  <li class="nav-item">
-                    <a class="nav-link text-primary" aria-current="page" href="#history">01. History</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-primary" href="#team">02. Team</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-        </div>
-      </section>
-      <section id="history">
-        <div class="container text-center">
-          <div id="historyContent" class="card bg-transparent border-0 position-absolute ">
-            <div class="card bg-transparent border-0">
-              <div class="card-body pa-0">
-                <h5 class="card-title text-start header-number header-text float-start ma-0">01.</h5>
-                <h6 class="card-subtitle text-start text-uppercase header-text header-text-position header-subtext">History</h6>
-              </div>
-            </div>
-            <div class="card bg-transparent border-0 history-text-description">
-              <div class="card-body px-5 py-0">
-                <p class="text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in ante viverra, rutrum erat rutrum, consectetur mi. Proin at maximus est. Nullam purus ex, iaculis sed erat sed, blandit tincidunt quam. Cras scelerisque id quam sed dignissim Pellentesque urna nunc, gravida quis hendrerit ac, tristique ut quam. Vivamus suscipit dignissim tortor nec congue.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel slide" data-bs-ride="carousel" id="carouselExampleCaptions">
-          <div class="carousel-inner">
-            <div class="carousel-item active bg-1">
-              <div class="carousel-caption"></div>
-            </div>
-            <div class="carousel-item bg-2">
-              <div class="carousel-caption"></div>
-            </div>
-            <div class="carousel-item bg-3">
-              <div class="carousel-caption"></div>
-            </div>
-            <div class="carousel-item bg-4">
-              <div class="carousel-caption"></div>
-            </div>
-          </div>
-          <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carouselExampleCaptions" type="button">
-            <span aria-hidden="true" class="carousel-control-prev-icon"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#carouselExampleCaptions" type="button">
-            <span aria-hidden="true" class="carousel-control-next-icon"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-          <!--thumbnails-->
-          <div class="circle-indicators carousel-indicators">
-            <button type="button" class="active" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
-          </div>
-          <div class="carousel-indicators">
-            <div class="container text-center">
-              <button aria-label="Slide 1" class="active" data-bs-slide-to="0" data-bs-target="#carouselExampleCaptions" type="button">
-                <img class="img-fluid" src="./img/slider-thumbnail-1.jpg">
-              </button>
-              <button aria-label="Slide 2" data-bs-slide-to="1" data-bs-target="#carouselExampleCaptions" type="button">
-                <img class="img-fluid" src="./img/slider-thumbnail-2.jpg">
-              </button>
-              <button aria-label="Slide 3" data-bs-slide-to="2" data-bs-target="#carouselExampleCaptions" type="button">
-                <img class="img-fluid" src="./img/slider-thumbnail-1.jpg">
-              </button>
-              <button aria-label="Slide 4" data-bs-slide-to="3" data-bs-target="#carouselExampleCaptions" type="button">
-                <img class="img-fluid" src="./img/slider-thumbnail-2.jpg">
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section id="team">
-        <div class="container text-center">
-          <div id="teamContent">
-            <div class="card border-0  ">
-              <div class="card bg-transparent border-0">
-                <div class="card-body">
-                  <h5 class="card-title text-start header-number header-text float-start">02.</h5>
-                  <h6 class="card-subtitle text-start text-uppercase header-text header-text-position header-subtext climb-text-header">Climb</h6>
-                  <p class="text-start climb-text-description">Cras scelerisque id quam sed dignissim Pellentesque urna nunc, gravida quis hendrerit ac, tristique ut quam. Vivamus suscipit dignissim tortor nec congue.</p>
+      <div class="container-fluid p-0">
+        <div class="row">
+          <div class="col-md-3 p-0">
+            <nav class="navbar navbar-expand-lg">
+              <div class="container-fluid">
+                <button
+                  class="navbar-toggler text-light"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <i class="h1 bi bi-justify"></i>
+                </button>
+
+                <p class="h2 px-3 text-light d-block d-md-none">
+                  RYAN JAYSON BERDELAO
+                </p>
+
+                <div
+                  class="collapse navbar-collapse"
+                  id="navbarSupportedContent"
+                >
+                  <section id="sidebar">
+                    <div class="profile">
+                      <img src="./img/profile.jpg" />
+                    </div>
+                    <p class="text-center d-flex px-4">Senior Web Developer</p>
+                    <p class="text-uppercase px-4 m-0">Personal Details</p>
+
+                    <div class="profile-personal p-4">
+                      <div class="profile-item d-flex">
+                        <i class="bi bi-pin-map-fill fs-5 me-4"></i>
+                        <div class="d-flex flex-column">
+                          <p class="m-0">Address</p>
+                          <p class="text-white-50 small">
+                            San Jose Del Monte, Bulacan, Philippines
+                          </p>
+                        </div>
+                      </div>
+
+                      <div class="profile-item d-flex">
+                        <i class="bi bi-envelope-at fs-5 me-4"></i>
+                        <div class="d-flex flex-column">
+                          <p class="m-0">Email</p>
+                          <p class="text-white-50 small">
+                            <a
+                              href="mailto:ryanjayson.berdelao@gmail.com"
+                              class="text-white-50"
+                              >ryanjayson.berdelao@gmail.com</a
+                            >
+                          </p>
+                        </div>
+                      </div>
+
+                      <div class="profile-item d-flex">
+                        <i class="bi bi-linkedin fs-5 me-4"></i>
+                        <div class="d-flex flex-column">
+                          <p class="m-0">LinkedIn</p>
+                          <p class="text-white-50 small">
+                            <a
+                              href="https://www.linkedin.com/in/ryanjayson/"
+                              class="text-white-50"
+                              target="_blank"
+                              >www.linkedin.com/in/ryanjayson</a
+                            >
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <p class="text-uppercase px-4 m-0">EDUCATION</p>
+
+                    <p>
+                      Bachelor of Science in Information Technology, 2012 -
+                      Technological Institute of the Philippines
+                    </p>
+                  </section>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div id="teamTabs" class="d-none d-md-block">
-          <div id="teamTabs" class="container text-center">
-            <nav>
-              <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                <button class="nav-link active text-uppercase header-text" id="nav-mountain-1-tab" data-bs-toggle="tab" data-bs-target="#nav-mountain-1" type="button" role="tab" aria-controls="nav-mountain-1" aria-selected="true">Mountain 1</button>
-                <button class="nav-link text-uppercase header-text" id="nav-mountain-2-tab" data-bs-toggle="tab" data-bs-target="#nav-mountain-2" type="button" role="tab" aria-controls="nav-mountain-2" aria-selected="false">Mountain 2</button>
               </div>
             </nav>
           </div>
-          <div class="tab-content" id="nav-tabContent">
-            <div class="tab-pane fade show active" id="nav-mountain-1" role="tabpanel" aria-labelledby="nav-mountain-1-tab" tabindex="0">
-              <div class="container">
-                <div class="card border-0 schedule-card">
-                  <div class="card-body">
-                    <h6 class="card-subtitle text-start text-uppercase header-text  header-subtext">Schedule</h6>
-                    <table class="table bg-transparent">
-                      <tbody>
-                        <tr>
-                          <td>25 Nov 2016</td>
-                          <td>Vestibulum viverra</td>
-                        </tr>
-                        <tr>
-                          <td>28 Nov 2016</td>
-                          <td>Vestibulum viverra</td>
-                        </tr>
-                        <tr>
-                          <td>18 Dec 2016</td>
-                          <td>Vestibulum viverra</td>
-                        </tr>
-                        <tr>
-                          <td>7 Jan 2017</td>
-                          <td>Vestibulum viverra</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
+
+          <div class="col-md-9">
+            <p id="about" class="h2 pt-3 px-3 d-none d-md-block">
+              RYAN JAYSON BERDELAO
+            </p>
+            <p class="text-secondary py-3 px-3">
+              11+ years of professional experience in application development;
+              translating requirements into working solution and with the
+              mindset of bringing idea into reality with quality and efficiency.
+              Experienced working on different project scales and complexity.
+              I’m seeking a position where I can share my skills, ideas, and
+              expertise for the benefits of the company and bring positive
+              value.
+            </p>
+            <hr class="mx-3" />
+
+            <div id="work-experience" class="d-flex align-items-center px-3">
+              <p class="rounded-circle-icon m-0 me-2">
+                <i class="bi bi-briefcase-fill"></i>
+              </p>
+              WORK EXPERIENCES
+            </div>
+            <div class="timeline">
+              <div class="timeline-item d-flex flex-row">
+                <div class="timeline-date p-2"><p>2021/09 - 2023/09</p></div>
+                <div class="timeline-content px-3 px-md-5 pb-5">
+                  <p class="fs-5 m-0">Web developer/Consultant</p>
+                  <p class="text-secondary">
+                    NEXUS IT Consulting PTE. LTD. (Remote | Singapore)
+                  </p>
+                  <ul>
+                    <li>
+                      Worked as a Web developer for different projects based on
+                      requirements. Created mock-up designs, and manage and
+                      maintain multiple WP sites. Part of my duties is Front end
+                      development of the company’s SaaS product using VueJS
+                      framework.
+                    </li>
+                    <li>
+                      Used WordPress, JavaScript/ Vue.JS, CSS, SASS, Webpack ,
+                      HTML, Vuetify, Adobe PS
+                    </li>
+                  </ul>
                 </div>
               </div>
-            </div>
-            <div class="tab-pane fade" id="nav-mountain-2" role="tabpanel" aria-labelledby="nav-mountain-2-tab" tabindex="0">
-              <div class="container ">
-                <div class="card border-0 schedule-card">
-                  <div class="card-body">
-                    <h6 class="card-subtitle text-start text-uppercase header-text  header-subtext">Schedule</h6>
-                    <table class="table bg-transparent">
-                      <tbody>
-                        <tr>
-                          <td>12 Feb 2018</td>
-                          <td>Vestibulum viverra</td>
-                        </tr>
-                        <tr>
-                          <td>02 Mar 2018</td>
-                          <td>Vestibulum viverra</td>
-                        </tr>
-                        <tr>
-                          <td>05 Mar 2018</td>
-                          <td>Vestibulum viverra</td>
-                        </tr>
-                        <tr>
-                          <td>7 Apr 2018</td>
-                          <td>Vestibulum viverra</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
+
+              <div class="timeline-item d-flex flex-row">
+                <div class="timeline-date p-2"><p>2018/12 – 2021/05</p></div>
+                <div class="timeline-content px-3 px-md-5 pb-5">
+                  <p class="fs-5 m-0">Senior Front-End .NET Developer</p>
+                  <p class="text-secondary">
+                    NW77 Limited (Remote | United Kingdom)
+                  </p>
+                  <ul>
+                    <li>
+                      Worked as Front-End developer for Cloud-based healthcare
+                      online booking and appointment system. Duties are
+                      conversion of wireframes to actual working pages, making
+                      sure that pages are pixel perfect and effective user
+                      experience.
+                    </li>
+                    <li>
+                      Used.NET Core, MVC, MS-SQL Server, Azure, C#.NET, ASP.
+                      NET, Razor, JavaScript/JQuery, Vue.JS, CSS(3), LESS,
+                      HTML(5), Bootstrap and MediaQueries.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="timeline-item d-flex flex-row">
+                <div class="timeline-date p-2"><p>2018/04 – 2018/12</p></div>
+                <div class="timeline-content px-3 px-md-5 pb-5">
+                  <p class="fs-5 m-0">Web Developer / Web Consultant</p>
+                  <p class="text-secondary">
+                    Koolatron Corp. (Remote | Canada)
+                  </p>
+                  <ul>
+                    <li>
+                      Designed, developed and updated various websites. Managed
+                      different e-Commerce websites and server and made sure
+                      they were working smoothly and properly. Parts of duties
+                      were SEO related tasks, ads and promotion implementation,
+                      website features integration, updated designs and UI/UX
+                      improvements, web site creation and database maintenance.
+                    </li>
+                    <li>
+                      Participated in project planning and consultation.
+                      Provided reports, insights, documentation and provided
+                      technical support for IT related issues. • Used
+                      NopCommerce Plantform (.NET), MS-SQL Server, C#.NET, ASP.
+                      NET and WebForms, JavaScript/JQuery, CSS(3), HTML(5), RWD,
+                      Bootstrap, Plesk Server.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="timeline-item d-flex flex-row">
+                <div class="timeline-date p-2"><p>2017/07 – 2018/03</p></div>
+                <div class="timeline-content px-3 px-md-5 pb-5">
+                  <p class="fs-5 m-0">Senior Front-End .NET Developer</p>
+                  <p class="text-secondary">
+                    Verity International Ltd. (Remote | Canada)
+                  </p>
+                  <ul>
+                    <li>
+                      Worked as Front-End developer for Talent development
+                      platform. Duties were UI/UX planning and designing, coding
+                      and testing/QA. Converted wireframes to actual working
+                      pages.
+                    </li>
+                    <li>
+                      Designed code structure (MVC architecture) for UI/UX
+                      scalable integration.
+                    </li>
+                    <li>
+                      Used.NET Core, Entity Framework, MVC, MS-SQL Server,
+                      Azure, C#.NET, ASP. NET, Razor, Design patterns,
+                      JavaScript/JQuery, CSS(3), LESS, HTML(5), Bootstrap and
+                      JSON.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="timeline-item d-flex flex-row">
+                <div class="timeline-date p-2"><p>2017/01 – 2017/07</p></div>
+                <div class="timeline-content px-3 px-md-5 pb-5">
+                  <p class="fs-5 m-0">Lead Developer / Technical Lead</p>
+                  <p class="text-secondary">
+                    WeTechnology, Inc. (Remote | Italy)
+                  </p>
+                  <ul>
+                    <li>
+                      Worked as Lead Developer for Online Recruitment Platform.
+                      Defined project technical requirements, designed system
+                      architecture and database design. Image to HTML
+                      conversion. • Managed group of developers and provided
+                      technical documentation for other team.
+                    </li>
+                    <li>
+                      Used .NET Framework, Entity Framework, MVC, MS-SQL Server,
+                      C#.NET, ASP. NET, Razor, JavaScript/JQuery, API, CSS(3),
+                      MediaQueries, LESS, HTML(5), Bootstrap and JSON.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="timeline-item d-flex flex-row">
+                <div class="timeline-date p-2"><p>2016/05 – 2017/01</p></div>
+                <div class="timeline-content px-3 px-md-5 pb-5">
+                  <p class="fs-5 m-0">Senior Front-End .NET Developer</p>
+                  <p class="text-secondary">
+                    OpenPath, Inc (Remote | United States)
+                  </p>
+                  <ul>
+                    <li>
+                      Worked as Lead Developer for Online Recruitment Platform.
+                      Defined project technical requirements, designed system
+                      architecture and database design. Image to HTML
+                      conversion. • Managed group of developers and provided
+                      technical documentation for other team.
+                    </li>
+                    <li>
+                      Used .NET Framework, Entity Framework, MVC, MS-SQL Server,
+                      C#.NET, ASP. NET, Razor, JavaScript/JQuery, API, CSS(3),
+                      MediaQueries, LESS, HTML(5), Bootstrap and JSON.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="timeline-item d-flex flex-row">
+                <div class="timeline-date p-2"><p>2015/06 – 2015/12</p></div>
+                <div class="timeline-content px-3 px-md-5 pb-5">
+                  <p class="fs-5 m-0">Web Developer</p>
+                  <p class="text-secondary">
+                    GBPlay, Inc / Gameclub Philippines
+                  </p>
+                  <ul>
+                    <li>
+                      Worked as full-stack developer. Redesigned company
+                      corporate website and game websites. Transformed websites
+                      to latest web design/layout and technologies. Migrated
+                      current web architecture from classic ASP to ASP.NET MVC
+                      Architecture.
+                    </li>
+                    <li>
+                      Used .NET Framework 4.5, MVC Architecture, Microsoft SQL
+                      Server, C#.NET, ASP. NET, Razor, IIS, JavaScript/JQuery,
+                      CSS(3), HTML(5), AngularJS, API, Bootstrap and JSON.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="timeline-item d-flex flex-row">
+                <div class="timeline-date p-2"><p>2014/07 – 2015/06</p></div>
+                <div class="timeline-content px-3 px-md-5 pb-5">
+                  <p class="fs-5 m-0">Application Developer</p>
+                  <p class="text-secondary">TrendMicro Philippines</p>
+                  <p>
+                    Worked as Technical Marketing Developer. Duties were
+                    developed, test, and implement modules for the Threat
+                    Encyclopedia website, following functional requirements and
+                    technical design documents. Perform web application system
+                    diagnosis and resolution, conducted technical design for new
+                    modules and integration with existing systems and
+                    application.
+                  </p>
+                </div>
+              </div>
+
+              <div class="timeline-item d-flex flex-row">
+                <div class="timeline-date p-2"><p>2015/01 – 2015/06</p></div>
+                <div class="timeline-content px-3 px-md-5 pb-5">
+                  <p class="fs-5 m-0">.Net Developer</p>
+                  <p class="text-secondary">
+                    Project Thunder, Inc. (Remote - Part-time)
+                  </p>
+                  <p>
+                    Worked as part-time.Net developer for Assets Management
+                    System. Primary duty was to convert existing project from
+                    ASP web form to ASP.Net MVC architecture. Other task were
+                    bug fixing, feature development and testing/QA.
+                  </p>
+                </div>
+              </div>
+
+              <div class="timeline-item d-flex flex-row">
+                <div class="timeline-date p-2"><p>2012/09 – 2014/05</p></div>
+                <div class="timeline-content px-3 px-md-5 pb-5">
+                  <p class="fs-5 m-0">Software Developer (.Net Developer)</p>
+                  <p class="text-secondary">
+                    Interprise Technology Group Philippines, Inc.
+                  </p>
+                  <p>
+                    Maintained Inventory module of ERP application; ensured the
+                    quality and meet the specifications of the features.
+                    Collaborated and coordinated with other developers, support
+                    staff, and QA staff and reported to Team leader for status
+                    and issues. Duties were to provide and maintain product
+                    integrity. Part of responsibilities were development and
+                    integrated of new features, support, bug fixing, existing
+                    feature enhancement, testing/QA and documentation of Windows
+                    application built using Microsoft Stack.
+                  </p>
+                </div>
+              </div>
+
+              <div class="timeline-item d-flex flex-row">
+                <div class="timeline-date p-2"><p>2012/01 – 2012/06</p></div>
+                <div class="timeline-content px-3 px-md-5 pb-5">
+                  <p class="fs-5 m-0">Web Developer</p>
+                  <p class="text-secondary">JLC IT Solutions Resource</p>
+                  <ul>
+                    <li>
+                      <i>Web Developer/Graphic Artist</i> - Created website
+                      Mock-up designs, enhanced existing websites and maintained
+                      contents using WordPress and Joomla CMS.
+                    </li>
+                    <li>
+                      <i>Internship</i> - As intern, duties were project QA,
+                      implemented SEO services, Graphic designs, and Web
+                      development and maintenance.
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="accordion d-block d-md-none" id="accordionExample">
-          <div class="accordion-item primary">
-            <h2 class="accordion-header">
-              <button class="accordion-button text-uppercase " type="button" data-bs-toggle="collapse" data-bs-target="#collapseMountain-1" aria-expanded="true" aria-controls="collapseOne"> Mountain 1 </button>
-            </h2>
-            <div id="collapseMountain-1" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-          
-                <div class="card border-0 schedule-card">
-                  <div class="card-body">
-                    <h6 class="card-subtitle text-start text-uppercase header-text  header-subtext">Schedule</h6>
-                    <table class="table bg-transparent">
-                      <tbody>
-                        <tr>
-                          <td>25 Nov 2016</td>
-                          <td>Vestibulum viverra</td>
-                        </tr>
-                        <tr>
-                          <td>28 Nov 2016</td>
-                          <td>Vestibulum viverra</td>
-                        </tr>
-                        <tr>
-                          <td>18 Dec 2016</td>
-                          <td>Vestibulum viverra</td>
-                        </tr>
-                        <tr>
-                          <td>7 Jan 2017</td>
-                          <td>Vestibulum viverra</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-
-
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button class="accordion-button collapsed text-uppercase " type="button" data-bs-toggle="collapse" data-bs-target="#collapseMountain-2" aria-expanded="false" aria-controls="collapseTwo"> Mountain 2 </button>
-            </h2>
-            <div id="collapseMountain-2" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-              <div class="accordion-body">
-       
-                <div class="card border-0 schedule-card">
-                  <div class="card-body">
-                    <h6 class="card-subtitle text-start text-uppercase header-text  header-subtext">Schedule</h6>
-                    <table class="table bg-transparent">
-                      <tbody>
-                        <tr>
-                          <td>12 Feb 2018</td>
-                          <td>Vestibulum viverra</td>
-                        </tr>
-                        <tr>
-                          <td>02 Mar 2018</td>
-                          <td>Vestibulum viverra</td>
-                        </tr>
-                        <tr>
-                          <td>05 Mar 2018</td>
-                          <td>Vestibulum viverra</td>
-                        </tr>
-                        <tr>
-                          <td>7 Apr 2018</td>
-                          <td>Vestibulum viverra</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-       
-              </div>
-            </div>
-          </div>
-          
-        </div>
-      </section>
-    </main>
-    <footer>
-      <div class="container text-center">
-        <nav class="navbar navbar-expand-lg">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-              <img src="./img/footer-logo.png" />
-            </a>
-            <div class="d-flex">
-              <p class="copyright fst-italic text-uppercase text-secondary mt-3">COPYRIGHT 2016. ALL RIGHTS RESERVED.</p>
-            </div>
-          </div>
-        </nav>
       </div>
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    </main>
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.js"
+      integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
