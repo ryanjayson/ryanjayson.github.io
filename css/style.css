@@ -98,6 +98,14 @@ main {
   box-shadow: none;
 }
 
+.is-full {
+  display: none !important;
+}
+
+.is-full.activated {
+  display: flex !important;
+}
+
 @media only screen and (max-width: 767px) {
   .timeline-date {
     min-width: 90px;
@@ -105,5 +113,11 @@ main {
 
   .timeline-date p {
     font-size: 14px;
+  }
+}
+
+@media (min-width: 992px) {
+  .profile img {
+    width: 80%;
   }
 }
