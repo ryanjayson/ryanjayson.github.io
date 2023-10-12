@@ -25,13 +25,13 @@
   </head>
   <body>
     <main>
-      <div class="container-fluid p-0">
+      <div class="container-fluid">
         <div class="row">
-          <div class="col-md-3 p-0">
+          <div class="col-md-12 col-lg-3 p-0">
             <nav class="navbar navbar-expand-lg">
-              <div class="container-fluid">
+              <div class="container-fluid p-0">
                 <button
-                  class="navbar-toggler text-light"
+                  class="navbar-toggler text-light mx-2"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#navbarSupportedContent"
@@ -42,7 +42,7 @@
                   <i class="h1 bi bi-justify"></i>
                 </button>
 
-                <p class="h2 px-3 text-light d-block d-md-none">
+                <p class="h3 px-2 text-light flex-grow-1 d-lg-none">
                   RYAN JAYSON BERDELAO
                 </p>
 
@@ -54,11 +54,19 @@
                     <div class="profile">
                       <img src="./img/profile.jpg" />
                     </div>
-                    <p class="text-center d-flex px-4">Senior Web Developer</p>
-                    <p class="text-uppercase px-4 m-0">Personal Details</p>
+                    <p class="text-center p-4 m-0 w-100 h4">
+                      Senior Web Developer
+                    </p>
 
-                    <div class="profile-personal p-4">
-                      <div class="profile-item d-flex">
+                    <div class="d-flex align-items-center px-3 text-uppercase">
+                      <p class="rounded-circle-icon m-0 me-2">
+                        <i class="bi bi-person-rolodex fs-5"></i>
+                      </p>
+                      Personal Details
+                    </div>
+
+                    <div class="profile-personal p-4 pb-5">
+                      <div class="profile-item">
                         <i class="bi bi-pin-map-fill fs-5 me-4"></i>
                         <div class="d-flex flex-column">
                           <p class="m-0">Address</p>
@@ -68,7 +76,7 @@
                         </div>
                       </div>
 
-                      <div class="profile-item d-flex">
+                      <div class="profile-item">
                         <i class="bi bi-envelope-at fs-5 me-4"></i>
                         <div class="d-flex flex-column">
                           <p class="m-0">Email</p>
@@ -97,20 +105,70 @@
                         </div>
                       </div>
                     </div>
-                    <p class="text-uppercase px-4 m-0">EDUCATION</p>
 
-                    <p>
-                      Bachelor of Science in Information Technology, 2012 -
-                      Technological Institute of the Philippines
-                    </p>
+                    <div class="d-flex align-items-center px-3 text-uppercase">
+                      <p class="rounded-circle-icon m-0 me-2">
+                        <i class="bi bi-award fs-5"></i>
+                      </p>
+                      EDUCATION
+                    </div>
+                    <div class="profile-personal p-4 pb-5">
+                      <div class="profile-item d-flex">
+                        <p class="m-0">
+                          Bachelor of Science in Information Technology, 2012 -
+                          <i class="m-0 text-white-50">
+                            Technological Institute of the Philippines
+                          </i>
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="d-flex align-items-center px-3 text-uppercase">
+                      <p class="rounded-circle-icon m-0 me-2">
+                        <i class="bi bi-mouse2-fill fs-5"></i>
+                      </p>
+                      Skills
+                    </div>
+                    <div class="profile-personal p-4 pb-5">
+                      <div class="profile-item d-flex">
+                        <p class="m-0">
+                          Programming Languages:
+                          <i class="m-0 text-white-50 fst-normal">
+                            C#, ASP.NET, PHP, JavaScript, SQL and T-SQL
+                          </i>
+                        </p>
+                      </div>
+
+                      <div class="profile-item d-flex">
+                        <p class="m-0">
+                          Databases:
+                          <i class="m-0 text-white-50 fst-normal">
+                            MS-SQL Server, MySQL , MongoDB
+                          </i>
+                        </p>
+                      </div>
+
+                      <div class="profile-item d-flex">
+                        <p class="m-0">
+                          Web Technologies:
+                          <i class="m-0 text-white-50 fst-normal">
+                            HTML5, CSS3, JQuery, AJAX ,API, Razor Engine,
+                            ReactJS, Vue.JS, JSON, XML, Bootstrap, WordPress,
+                            Vuetify, SEO, Responsive Web Design, LESS/SASS,
+                            Media Queries, Headless CMS, UI & UX design, PSD to
+                            HTML, Git.
+                          </i>
+                        </p>
+                      </div>
+                    </div>
                   </section>
                 </div>
               </div>
             </nav>
           </div>
 
-          <div class="col-md-9">
-            <p id="about" class="h2 pt-3 px-3 d-none d-md-block">
+          <div class="col-md-12 col-lg-9 p-0">
+            <p id="about" class="h2 pt-3 px-3 d-none d-lg-block">
               RYAN JAYSON BERDELAO
             </p>
             <p class="text-secondary py-3 px-3">
@@ -130,12 +188,12 @@
               </p>
               WORK EXPERIENCES
             </div>
-            <div class="timeline">
+            <div class="timeline px-3">
               <div class="timeline-item d-flex flex-row">
                 <div class="timeline-date p-2"><p>2021/09 - 2023/09</p></div>
-                <div class="timeline-content px-3 px-md-5 pb-5">
+                <div class="timeline-content px-3 px-md-5 pb-2">
                   <p class="fs-5 m-0">Web developer/Consultant</p>
-                  <p class="text-secondary">
+                  <p class="text-secondary mb-1">
                     NEXUS IT Consulting PTE. LTD. (Remote | Singapore)
                   </p>
                   <ul>
@@ -156,9 +214,9 @@
 
               <div class="timeline-item d-flex flex-row">
                 <div class="timeline-date p-2"><p>2018/12 – 2021/05</p></div>
-                <div class="timeline-content px-3 px-md-5 pb-5">
+                <div class="timeline-content px-3 px-md-5 pb-2">
                   <p class="fs-5 m-0">Senior Front-End .NET Developer</p>
-                  <p class="text-secondary">
+                  <p class="text-secondary mb-1">
                     NW77 Limited (Remote | United Kingdom)
                   </p>
                   <ul>
@@ -180,9 +238,9 @@
 
               <div class="timeline-item d-flex flex-row">
                 <div class="timeline-date p-2"><p>2018/04 – 2018/12</p></div>
-                <div class="timeline-content px-3 px-md-5 pb-5">
+                <div class="timeline-content px-3 px-md-5 pb-2">
                   <p class="fs-5 m-0">Web Developer / Web Consultant</p>
-                  <p class="text-secondary">
+                  <p class="text-secondary mb-1">
                     Koolatron Corp. (Remote | Canada)
                   </p>
                   <ul>
@@ -197,10 +255,12 @@
                     <li>
                       Participated in project planning and consultation.
                       Provided reports, insights, documentation and provided
-                      technical support for IT related issues. • Used
-                      NopCommerce Plantform (.NET), MS-SQL Server, C#.NET, ASP.
-                      NET and WebForms, JavaScript/JQuery, CSS(3), HTML(5), RWD,
-                      Bootstrap, Plesk Server.
+                      technical support for IT related issues.
+                    </li>
+                    <li>
+                      Used NopCommerce Plantform (.NET), MS-SQL Server, C#.NET,
+                      ASP. NET and WebForms, JavaScript/JQuery, CSS(3), HTML(5),
+                      RWD, Bootstrap, Plesk Server.
                     </li>
                   </ul>
                 </div>
@@ -208,9 +268,9 @@
 
               <div class="timeline-item d-flex flex-row">
                 <div class="timeline-date p-2"><p>2017/07 – 2018/03</p></div>
-                <div class="timeline-content px-3 px-md-5 pb-5">
+                <div class="timeline-content px-3 px-md-5 pb-2">
                   <p class="fs-5 m-0">Senior Front-End .NET Developer</p>
-                  <p class="text-secondary">
+                  <p class="text-secondary mb-1">
                     Verity International Ltd. (Remote | Canada)
                   </p>
                   <ul>
@@ -236,9 +296,9 @@
 
               <div class="timeline-item d-flex flex-row">
                 <div class="timeline-date p-2"><p>2017/01 – 2017/07</p></div>
-                <div class="timeline-content px-3 px-md-5 pb-5">
+                <div class="timeline-content px-3 px-md-5 pb-2">
                   <p class="fs-5 m-0">Lead Developer / Technical Lead</p>
-                  <p class="text-secondary">
+                  <p class="text-secondary mb-1">
                     WeTechnology, Inc. (Remote | Italy)
                   </p>
                   <ul>
@@ -246,8 +306,8 @@
                       Worked as Lead Developer for Online Recruitment Platform.
                       Defined project technical requirements, designed system
                       architecture and database design. Image to HTML
-                      conversion. • Managed group of developers and provided
-                      technical documentation for other team.
+                      conversion. Managed group of developers and provided
+                      technical documentation for the team.
                     </li>
                     <li>
                       Used .NET Framework, Entity Framework, MVC, MS-SQL Server,
@@ -260,23 +320,24 @@
 
               <div class="timeline-item d-flex flex-row">
                 <div class="timeline-date p-2"><p>2016/05 – 2017/01</p></div>
-                <div class="timeline-content px-3 px-md-5 pb-5">
+                <div class="timeline-content px-3 px-md-5 pb-2">
                   <p class="fs-5 m-0">Senior Front-End .NET Developer</p>
-                  <p class="text-secondary">
+                  <p class="text-secondary mb-1">
                     OpenPath, Inc (Remote | United States)
                   </p>
                   <ul>
                     <li>
-                      Worked as Lead Developer for Online Recruitment Platform.
-                      Defined project technical requirements, designed system
-                      architecture and database design. Image to HTML
-                      conversion. • Managed group of developers and provided
-                      technical documentation for other team.
+                      Worked as Front-End web developer for Payment Transaction
+                      Management platform.
                     </li>
                     <li>
-                      Used .NET Framework, Entity Framework, MVC, MS-SQL Server,
-                      C#.NET, ASP. NET, Razor, JavaScript/JQuery, API, CSS(3),
-                      MediaQueries, LESS, HTML(5), Bootstrap and JSON.
+                      Designed and developed application features. Focused on
+                      UI/UX creation and enhancement.
+                    </li>
+                    <li>
+                      Used .NET Core, Entity Framework, MVC Architecture, MS-SQL
+                      Server, Azure, C#.NET, ASP. NET, Design patterns, TDD,
+                      JavaScript/JQuery, CSS(3), HTML(5), Bootstrap and JSON.
                     </li>
                   </ul>
                 </div>
@@ -284,9 +345,9 @@
 
               <div class="timeline-item d-flex flex-row">
                 <div class="timeline-date p-2"><p>2015/06 – 2015/12</p></div>
-                <div class="timeline-content px-3 px-md-5 pb-5">
+                <div class="timeline-content px-3 px-md-5 pb-2">
                   <p class="fs-5 m-0">Web Developer</p>
-                  <p class="text-secondary">
+                  <p class="text-secondary mb-1">
                     GBPlay, Inc / Gameclub Philippines
                   </p>
                   <ul>
@@ -308,9 +369,9 @@
 
               <div class="timeline-item d-flex flex-row">
                 <div class="timeline-date p-2"><p>2014/07 – 2015/06</p></div>
-                <div class="timeline-content px-3 px-md-5 pb-5">
+                <div class="timeline-content px-3 px-md-5 pb-2">
                   <p class="fs-5 m-0">Application Developer</p>
-                  <p class="text-secondary">TrendMicro Philippines</p>
+                  <p class="text-secondary mb-1">TrendMicro Philippines</p>
                   <p>
                     Worked as Technical Marketing Developer. Duties were
                     developed, test, and implement modules for the Threat
@@ -325,9 +386,9 @@
 
               <div class="timeline-item d-flex flex-row">
                 <div class="timeline-date p-2"><p>2015/01 – 2015/06</p></div>
-                <div class="timeline-content px-3 px-md-5 pb-5">
+                <div class="timeline-content px-3 px-md-5 pb-2">
                   <p class="fs-5 m-0">.Net Developer</p>
-                  <p class="text-secondary">
+                  <p class="text-secondary mb-1">
                     Project Thunder, Inc. (Remote - Part-time)
                   </p>
                   <p>
@@ -341,9 +402,9 @@
 
               <div class="timeline-item d-flex flex-row">
                 <div class="timeline-date p-2"><p>2012/09 – 2014/05</p></div>
-                <div class="timeline-content px-3 px-md-5 pb-5">
+                <div class="timeline-content px-3 px-md-5 pb-2">
                   <p class="fs-5 m-0">Software Developer (.Net Developer)</p>
-                  <p class="text-secondary">
+                  <p class="text-secondary mb-1">
                     Interprise Technology Group Philippines, Inc.
                   </p>
                   <p>
@@ -362,19 +423,24 @@
 
               <div class="timeline-item d-flex flex-row">
                 <div class="timeline-date p-2"><p>2012/01 – 2012/06</p></div>
-                <div class="timeline-content px-3 px-md-5 pb-5">
+                <div class="timeline-content px-3 px-md-5 pb-2">
                   <p class="fs-5 m-0">Web Developer</p>
-                  <p class="text-secondary">JLC IT Solutions Resource</p>
+                  <p class="text-secondary mb-1">JLC IT Solutions Resource</p>
                   <ul>
                     <li>
-                      <i>Web Developer/Graphic Artist</i> - Created website
-                      Mock-up designs, enhanced existing websites and maintained
-                      contents using WordPress and Joomla CMS.
+                      <i
+                        ><b class="text-secondary"
+                          >Web Developer/Graphic Artist</b
+                        ></i
+                      >
+                      - Created website Mock-up designs, enhanced existing
+                      websites and maintained contents using WordPress and
+                      Joomla CMS.
                     </li>
                     <li>
-                      <i>Internship</i> - As intern, duties were project QA,
-                      implemented SEO services, Graphic designs, and Web
-                      development and maintenance.
+                      <i><b class="text-secondary">Internship</b></i> - As
+                      intern, duties were project QA, implemented SEO services,
+                      Graphic designs, and Web development and maintenance.
                     </li>
                   </ul>
                 </div>

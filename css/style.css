@@ -6,10 +6,17 @@ body {
   min-height: 100%;
   background: #fff;
   color: #000;
-  font-family: "Lato";
+  /* font-family: "Lato"; */
 }
 
-/* Ryan IO */
+li {
+  padding-bottom: 6px;
+}
+
+.navbar-toggler {
+  border-color: #dddddd;
+}
+
 main {
   height: 100vh;
 }
@@ -81,6 +88,14 @@ main {
   z-index: 1;
   left: -15px;
   top: 8px;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-toggler:hover {
+  box-shadow: none;
 }
 
 @media only screen and (max-width: 767px) {
