@@ -106,6 +106,39 @@ main {
   display: flex !important;
 }
 
+.card img {
+  filter: opacity(65%);
+  transition: 0.3s ease-in-out;
+}
+
+.card img:hover {
+  filter: opacity(100%);
+}
+
+.external-link-btn {
+  opacity: 0.5;
+  position: relative;
+  top: 4px;
+  transition: 0.5s ease-in-out;
+}
+
+.external-link-btn:hover {
+  opacity: 1;
+}
+
+.external-link-btn img {
+  width: 20px;
+}
+
+.rounded-pill {
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.card {
+  width: 18rem;
+}
+
 @media only screen and (max-width: 767px) {
   .timeline-date {
     min-width: 90px;
