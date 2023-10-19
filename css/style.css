@@ -83,11 +83,10 @@ main {
   height: 24px;
   background-color: #fff;
   border: 4px solid #414f6b;
-  top: 15px;
   border-radius: 50%;
   z-index: 1;
   left: -15px;
-  top: 8px;
+  top: 0;
 }
 
 .navbar-toggler:focus {
@@ -152,5 +151,6 @@ main {
 @media (min-width: 992px) {
   .profile img {
     width: 80%;
+    max-width: 230px;
   }
 }
